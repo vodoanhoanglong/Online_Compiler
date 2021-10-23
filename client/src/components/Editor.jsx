@@ -18,7 +18,7 @@ const Editor = () => {
   const run = () => {
     setIsLoading(true);
     axios
-      .post("http://127.0.0.1:5000/api/run", {
+      .post("https://server-compiler.vercel.app/api/run", {
         mode,
         value,
         input,
