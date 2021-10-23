@@ -18,7 +18,7 @@ const Editor = () => {
   const run = () => {
     setIsLoading(true);
     axios
-      .post("https://server-compiler.vercel.app/api/run", {
+      .post("https://server-vodoanhoanglong-compiler.vercel.app/api/run", {
         mode,
         value,
         input,
